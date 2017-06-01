@@ -267,6 +267,11 @@ class Employee{
 		this.expencess = expencess;
 		this.salary = salary;
 	}
+	public Employee(String string, int i, String string2) {
+		this.empName = string;
+		this.empAge = i;
+		this.empEmail = string2;
+	}
 	@Override
 	public String toString() {
 		return "Employee [empName=" + empName + ", empAge=" + empAge + ", empEmail=" + empEmail + "]";
